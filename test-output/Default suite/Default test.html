@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>3/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Oct 06 16:57:20 EDT 2022</td>
+<td>Started on:</td><td>Fri Oct 07 19:59:49 EDT 2022</td>
 </tr>
-<tr><td>Total time:</td><td>5 seconds (5460 ms)</td>
+<tr><td>Total time:</td><td>7 seconds (7512 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,10 +76,20 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='curahealthcare.tests.AppointmentTest.makeAppointment()'><b>makeAppointment</b><br>Test class: curahealthcare.tests.AppointmentTest</td>
+<td title='curahealthcare.tests.LoginTest.incorrectPassword()'><b>incorrectPassword</b><br>Test class: curahealthcare.tests.LoginTest<br>Parameters: {neededDay=15, password=ThisIsNotAPassword!, comment=I love automation, neededMonthYear=March 2023, username=John Doe, radioValue=Medicaid}</td>
 <td></td>
-<td>2</td>
-<td>curahealthcare.tests.AppointmentTest@131774fe</td></tr>
+<td>0</td>
+<td>curahealthcare.tests.LoginTest@1bd4fdd</td></tr>
+<tr>
+<td title='curahealthcare.tests.LoginTest.incorrectUsername()'><b>incorrectUsername</b><br>Test class: curahealthcare.tests.LoginTest<br>Parameters: {neededDay=15, password=ThisIsNotAPassword, comment=I love automation, neededMonthYear=March 2023, username=John Doe!, radioValue=Medicaid}</td>
+<td></td>
+<td>0</td>
+<td>curahealthcare.tests.LoginTest@1bd4fdd</td></tr>
+<tr>
+<td title='curahealthcare.tests.LoginTest.successfulLogin()'><b>successfulLogin</b><br>Test class: curahealthcare.tests.LoginTest<br>Parameters: {neededDay=15, password=ThisIsNotAPassword, comment=I love automation, neededMonthYear=March 2023, username=John Doe, radioValue=Medicaid}</td>
+<td></td>
+<td>0</td>
+<td>curahealthcare.tests.LoginTest@1bd4fdd</td></tr>
 </table><p>
 </body>
 </html>

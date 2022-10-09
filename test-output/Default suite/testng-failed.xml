@@ -3,14 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="curahealthcare.tests.AppointmentTest">
+      <class name="curahealthcare.tests.LoginTest">
         <methods>
-          <include name="ConfirmHistory"/>
-          <include name="makeAppointment"/>
+          <include name="successfulLogin" invocation-numbers="0"/>
+          <include name="incorrectPassword" invocation-numbers="0"/>
           <include name="launchApplication"/>
           <include name="stopApplication"/>
+          <include name="incorrectUsername" invocation-numbers="0"/>
         </methods>
-      </class> <!-- curahealthcare.tests.AppointmentTest -->
+      </class> <!-- curahealthcare.tests.LoginTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

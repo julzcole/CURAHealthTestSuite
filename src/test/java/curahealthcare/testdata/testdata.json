@@ -1,0 +1,26 @@
+[
+{
+	"username" : "John Doe",
+	"password" : "ThisIsNotAPassword",
+	"radioValue" : "Medicaid",
+	"comment" : "I love automation",
+	"neededMonthYear" : "March 2023",
+	"neededDay" : "15"
+},
+{
+	"username" : "John Doe",
+	"password" : "ThisIsNotAPassword!",
+	"radioValue" : "Medicaid",
+	"comment" : "I love automation",
+	"neededMonthYear" : "March 2023",
+	"neededDay" : "15"
+},
+{
+	"username" : "John Doe!",
+	"password" : "ThisIsNotAPassword",
+	"radioValue" : "Medicaid",
+	"comment" : "I love automation",
+	"neededMonthYear" : "March 2023",
+	"neededDay" : "15"
+}
+]
